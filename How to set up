@@ -1,0 +1,7 @@
+Clone your project
+Go to the folder application
+Run composer install on your cmd or terminal
+Open your .env file and change the database name (DB_DATABASE) to whatever you have, username (DB_USERNAME) and password (DB_PASSWORD) field correspond to your configuration.
+Run php artisan migrate
+Run php artisan serve
+Go to http://localhost:8000/
